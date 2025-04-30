@@ -1,0 +1,71 @@
+/* Style général pour toutes les pages */
+body {
+  font-family: 'Arial', sans-serif; /* Police de caractères simple et lisible */
+  background-color: #f7f8fc; /* Fond clair pour le corps de la page */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #333; /* Texte en couleur foncée pour un meilleur contraste */
+}
+
+/* Container pour la table avec débordement horizontal activé */
+.table-container {
+  overflow-x: auto;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* Style du tableau avec bordures et ombrages */
+table.classement {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table.classement th, table.classement td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table.classement th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  color: #555;
+}
+
+table.classement tr:hover {
+  background-color: #f1f1f1; /* Effet au survol des lignes */
+}
+
+/* Cellule des clubs alignée à gauche */
+.club-cell {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.club-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Styles pour les formulaires */
+.form span {
+  margin: 0 5px;
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}

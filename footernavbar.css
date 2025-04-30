@@ -1,0 +1,42 @@
+    /* Style pour le footer */
+    footer {
+        background-color: #333;  /* Fond sombre pour le footer */
+        color: #fff;  /* Texte en blanc pour contraster avec le fond sombre */
+        text-align: center;  /* Centrer le texte */
+        padding: 10px 0;  /* Espacement vertical */
+        font-size: 0.9rem;  /* Taille de la police réduite */
+        font-family: Arial, sans-serif;  /* Police sans-serif */
+        margin-top: 50px;  /* Marge en haut pour séparer du contenu */
+    }
+    
+    /* Barre de navigation */
+.navbar {
+    background-color: #218838; /* Vert élégant */
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+    gap: 30px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #155d27; /* Vert plus foncé au survol */
+  }
+  

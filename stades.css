@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif; /* Police de caractères simple et lisible */
+    background-color: #f0f2f5; /* Fond clair pour le corps de la page */
+    margin: 0;  /* Supprimer les marges par défaut du navigateur */
+    padding: 0; /* Supprimer les marges internes par défaut */
+    min-height: 100vh; /* S'assurer que la hauteur minimale de la page est de 100% */
+    display: flex;
+    flex-direction: column; /* Disposition en colonne, de l'en-tête vers le bas */
+}
+ 
+  .stadium-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .stadium {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  text-align: center;
+  max-width: 600px; /* Largeur maximale */
+  width: 100%; /* Prend 100% de l'espace disponible, mais limité à max-width */
+  box-sizing: border-box;
+  overflow: visible;
+  margin: 20px auto;
+}
+
+.stadium h2 {
+  color: #333;
+}
+
+.stadium p {
+  font-size: 1em; /* Uniformiser la taille du texte */
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+  max-height: none;
+  white-space: normal;
+}
+
+.stadium-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}

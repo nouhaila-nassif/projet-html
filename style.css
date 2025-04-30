@@ -1,0 +1,323 @@
+/* Style général pour toutes les pages */
+body {
+    font-family: 'Arial', sans-serif; /* Police de caractères simple et lisible */
+    background-color: #f0f2f5; /* Fond clair pour le corps de la page */
+    margin: 0;  /* Supprimer les marges par défaut du navigateur */
+    padding: 0; /* Supprimer les marges internes par défaut */
+    min-height: 100vh; /* S'assurer que la hauteur minimale de la page est de 100% */
+    display: flex;
+    flex-direction: column; /* Disposition en colonne, de l'en-tête vers le bas */
+}
+
+body.home-page {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://brazil-selection.com/wp-content/uploads/2019/09/maracana-rio-de-janeiro-br%C3%A9sil.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+
+/* Style spécifique à chaque page */
+#raja header {
+    background-image: url('https://www.indehekken.net/wp-content/uploads/2023/03/DSC0468-1024x678.jpg');
+}
+/* Définir les arrière-plans spécifiques par club */
+.team-raja {
+    background-image: url('https://cloudfront-eu-central-1.images.arcpublishing.com/le360/N4A2BRS26FNEXPGKGSETLNN2AU.png');
+}
+.team-wydad  {
+    background-image: url('https://static.menara.ma/content/uploads/2023/06/logo-wac.jpg');
+}
+.team-fus {
+    background-image: url('https://www.lopinion.ma/photo/art/grande/49497041-38487381.jpg?v=1599041247');
+
+}
+.team-tetouan {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_s8wuSACiLEt9xyKYFs4KI8V3YdHLWb1S-g&s');
+ 
+}
+
+.team-husa {
+    background-image: url('https://cdn.snrtnews.com/sites/default/files/2023/02/25/logo3-1677331706.jpeg');
+
+}
+
+.team-mco {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwMdyxc6PPeSPG0q7gsu4_C2cr8oAf74KUQ&s');
+    
+}
+
+.team-mas {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/MAS-Logo_official_by_brahim.png/960px-MAS-Logo_official_by_brahim.png');
+    
+}
+
+.team-kac {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvtiACiscPlEE7vCYkeOJ6FpUyDpubO-qmaw&s');
+  
+}
+
+.team-kacm {
+    background-image: url('https://i0.wp.com/leseco.ma/wp-content/uploads/2020/01/kacm.jpg?fit=940%2C400&ssl=1');
+ 
+}
+
+/* Clubs Internationaux */
+
+.team-real {
+    background-image: url('https://images3.alphacoders.com/770/thumb-1920-770519.jpg');
+  
+}
+
+.team-barca {
+    background-image: url('https://thumbs.dreamstime.com/b/logo-de-fc-barcelona-87518380.jpg');
+   
+}
+
+.team-chelsea {
+    background-image: url('https://i.pinimg.com/736x/dd/03/fb/dd03fb36ed446fe9919c311009e6bdee.jpg');
+  
+}
+#wydad header {
+    background-image: url('https://sport.le360.ma/resizer/v2/S7WYIH7TSBJYFKT7UPVLUXKLNE.jpg?auth=4b501480382082d1344081cf31545e4a135ea43b7db8c9a1bffbeaae096e3f18&smart=true&width=708&height=398');
+}
+
+#fus header {
+    background-image: url('https://scontent.frba1-4.fna.fbcdn.net/v/t1.6435-9/57164096_2379815078915300_8643197456395272192_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nd0eqQO_m3EQ7kNvwEFYn7Z&_nc_oc=AdkAeak7eV2P5-JHm6y58qUYuYopfUwWb-AypOZt3ntQfNg7k5xwMhvvDN4rJVzF3t8&_nc_zt=23&_nc_ht=scontent.frba1-4.fna&_nc_gid=v2rZgi_3fenONBAZXlfuRQ&oh=00_AfEXzU8yVsXwGx74igh0dXKfQSHInp9PbueBPIxiJeGr2Q&oe=68343FED');
+}
+#tetouan header {
+    background-image: url('https://scontent.frba1-4.fna.fbcdn.net/v/t1.6435-9/57164096_2379815078915300_8643197456395272192_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nd0eqQO_m3EQ7kNvwEFYn7Z&_nc_oc=AdkAeak7eV2P5-JHm6y58qUYuYopfUwWb-AypOZt3ntQfNg7k5xwMhvvDN4rJVzF3t8&_nc_zt=23&_nc_ht=scontent.frba1-4.fna&_nc_gid=v2rZgi_3fenONBAZXlfuRQ&oh=00_AfEXzU8yVsXwGx74igh0dXKfQSHInp9PbueBPIxiJeGr2Q&oe=68343FED');
+
+}
+#husa header{
+    background-image: url('https://scontent.frba1-4.fna.fbcdn.net/v/t1.6435-9/57164096_2379815078915300_8643197456395272192_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nd0eqQO_m3EQ7kNvwEFYn7Z&_nc_oc=AdkAeak7eV2P5-JHm6y58qUYuYopfUwWb-AypOZt3ntQfNg7k5xwMhvvDN4rJVzF3t8&_nc_zt=23&_nc_ht=scontent.frba1-4.fna&_nc_gid=v2rZgi_3fenONBAZXlfuRQ&oh=00_AfEXzU8yVsXwGx74igh0dXKfQSHInp9PbueBPIxiJeGr2Q&oe=68343FED');
+
+}
+#mas header{
+    background-image: url('https://scontent.frba1-2.fna.fbcdn.net/v/t39.30808-6/481251837_1077006901130084_8842103399662791935_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DPXnQABCItwQ7kNvwEbcNQ8&_nc_oc=AdkvwX-1kUvCc-IxJt_tEqlJvTPqJyH93BLjTtzqCZr4IuZsI49d16M9C4B1XwwD8dY&_nc_zt=23&_nc_ht=scontent.frba1-2.fna&_nc_gid=7tChgQiH31x_O5Jg5RjGNg&oh=00_AfFSs4JzaldcZAVwOaMMqO3AA_rnMxYtHVmuO2Mh5y2ZBg&oe=6812A7CE');
+}
+#mco header {
+    background-image: url('https://i.ytimg.com/vi/g7QaE2RfqnM/maxresdefault.jpg');
+}
+#kac header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+#kacm header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+#sale header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+#real header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+#chelsea header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+#barca header {
+    background-image: url('https://scontent.frba1-1.fna.fbcdn.net/v/t39.30808-6/476230154_615780574390217_9082514459564051461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_ohc=eHDMINy-IlkQ7kNvwGjSxIS&_nc_oc=AdnTA_Z2woIy94FGtLUhQDN2pgS0YdQH5NHa9t2jG-5CU2CXWt7NIS4YCq3Tq4Tdoew&_nc_zt=23&_nc_ht=scontent.frba1-1.fna&_nc_gid=9zdO32zEuapwGDqn0pN2jA&oh=00_AfEDjxPGg8hdkHBAoHr19S8Wa_fMsAfrUqVEdY_akE6s2w&oe=6812BD89');
+}
+
+/* Styles des sections */
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #333;
+    font-size: 28px;
+}/* Container des équipes */
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+/* Style des cartes d'équipe */
+.team {
+    width: 270px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Légère superposition sombre transparente */
+.team::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Texte au-dessus de l’image */
+.team h3, .team p {
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Effet au survol */
+.team:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Typographie */
+.team h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.team p {
+    font-size: 1em;
+    color: #f0f0f0;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+
+
+/* Présentation du club */
+.club-info, .club-achievements, .club-fans {
+    padding: 20px;
+    margin:  0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.club-info h2, .club-achievements h2, .club-fans h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.club-info p, .club-achievements ul, .club-fans p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.club-achievements ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.club-achievements li {
+    background: #e9e9e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Plus d'espace entre les vidéos */
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Agrandissement de la vidéo */
+    aspect-ratio: 16 / 9; /* Garde le format YouTube */
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 0;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* assure que la modale est au-dessus */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modal.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  /* Bouton Explorer */
+  #close-modal-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+  
+  #close-modal-btn:hover {
+    background-color: #218838;
+  }
+
+
+
